@@ -1,0 +1,32 @@
+.bg-color1{
+  height: 100px;
+  weight: 100px;
+  background-color:red;
+  border:1px solid;
+}
+.bg-color2{
+  height: 100px;
+  weight: 100px;
+  background-color:green;
+  border:1px solid;
+}
+
+
+
+@media screen and (max-width:900px){
+  .bg-color1{
+    color:orange;
+    height: 50px;
+    weight: 50px;
+    background-color:blue;
+    border:1px solid;
+  }
+  .bg-color2{
+    color:red;
+    height: 200px;
+    weight: 200px;
+    background-color:yellow;
+    border:1px solid;
+  }
+
+}
